@@ -22,6 +22,7 @@ export default function Home() {
           method="POST"
           data-netlify="true"
           action="success"
+          encType="application/x-www-form-urlencoded"
         >
           <h2 className={styles.subTitle}>Get early updates</h2>
           <p className={styles.description}>

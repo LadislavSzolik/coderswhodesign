@@ -21,6 +21,7 @@ export default function Home() {
           name="earlyaccess"
           method="POST"
           data-netlify="true"
+          action="success"
         >
           <h2 className={styles.subTitle}>Get early updates</h2>
           <p className={styles.description}>

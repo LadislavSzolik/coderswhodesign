@@ -23,7 +23,9 @@ export default function Home() {
           data-netlify="true"
           action="success"
           encType="application/x-www-form-urlencoded"
+          data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="form-name" value="earlyaccess" />
           <h2 className={styles.subTitle}>Get early updates</h2>
           <p className={styles.description}>
             Sign up to get notified about our progress.

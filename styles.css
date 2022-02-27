@@ -1,0 +1,98 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #334155;
+    background-color: #fff7ed;
+    --primary-color: #ea580c;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: none;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 3rem auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-block-start: 3rem;
+    margin-block-end: 2rem;
+}
+
+p {
+    margin: 1rem auto;
+    font-size: 1.1875rem;
+    line-height: 1.35;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    -webkit-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 1em 2em;
+    color: #fff;
+    background-color: var(--primary-color);
+    outline: none;
+    font-variant-numeric: tabular-nums;
+    cursor: pointer;
+    background-image: none;
+    -webkit-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    margin-block: 1rem;
+}
+
+form {
+    padding-inline: 1rem;
+    padding-block-end: 2rem;
+}
+
+@media (min-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h1, h2, p, form {
+        max-width: 42rem;
+        margin-inline: auto;
+    }
+
+    form {
+        padding-inline: 4rem;
+        padding-block-end: 4rem;
+    }
+}
